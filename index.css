@@ -1,0 +1,653 @@
+/* General Styles */
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* General Navbar Styles */
+.navbar {
+  width: 100%;
+  padding: 1.25rem 0; /* Equivalent to py-5 in Tailwind */
+  border-bottom: 2px solid #e2e8f0; /* Assuming you want a light border */
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+  padding: 10px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  text-decoration: none;
+}
+
+.logo-text {
+  font-weight: 600; /* Equivalent to font-semibold */
+  font-size: 1.25rem; /* Equivalent to text-xl */
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.actions img {
+  cursor: pointer;
+}
+
+.login-button,
+.signup-button {
+  border: 2px solid #334155;
+  padding: 0.5rem 0.75rem;
+  text-align: center;
+  cursor: pointer;
+  background: #fff;
+}
+
+.signup-button {
+  background-color: #334155;
+  color: #ffffff;
+}
+
+.hero-section {
+  height: 90vh;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.hero-section .text-content {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headline1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #0f172a;
+}
+
+.cta-button1 {
+  padding: 1rem 1.5rem; /* Equivalent to py-2 px-4 in Tailwind */
+  background-color: #3b82f6; /* Equivalent to bg-blue-500 in Tailwind */
+  border-radius: 0.5rem; /* Equivalent to rounded-lg in Tailwind */
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+}
+
+/* Image Content Styles */
+.image-content {
+  height: 100%;
+  width: 50%; /* Equivalent to w-3/5 in Tailwind */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image {
+  max-width: 700px; /* Adjust based on your needs */
+  height: auto;
+  object-fit: contain; /* Equivalent to object-contain in Tailwind */
+}
+
+/* Outer Section Styles */
+.stats-section {
+  margin-top: 2.5rem; /* Equivalent to my-10 in Tailwind */
+  background-color: #f8fafc;
+}
+
+/* Container Styles */
+.stats-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  gap: 10px;
+}
+
+/* Individual Stat Item Styles */
+.stat-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: fit-content;
+}
+
+.stat-number {
+  font-weight: 600; /* Equivalent to font-semibold in Tailwind */
+  font-size: 2.25rem; /* Equivalent to text-4xl in Tailwind */
+}
+
+.stat-description {
+  font-size: 1.25rem;
+  padding-top: 10px; /* Equivalent to text-xl in Tailwind */
+}
+
+/* Divider Styles */
+.divider {
+  height: 5rem; /* Equivalent to h-20 in Tailwind */
+  width: 2px; /* Equivalent to min-w-[3px] in Tailwind */
+  background-color: #e2e8f0;
+  border: none;
+}
+
+/* Outer Section Styles */
+.top-categories-section {
+  padding-top: 1.25rem; /* Equivalent to py-5 in Tailwind */
+  padding-bottom: 1.25rem; /* Equivalent to py-5 in Tailwind */
+}
+
+.title-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-section a {
+  text-decoration: underline;
+  font-size: 20px;
+  color: #0099ff;
+}
+
+/* Container Styles */
+.top-categories-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 50px;
+}
+
+/* Title Styles */
+.section-title {
+  font-size: 1.875rem; /* Equivalent to text-3xl in Tailwind */
+  font-weight: 600;
+  color: #0F172A; /* Equivalent to font-medium in Tailwind */
+}
+
+.courses-list,
+.categories-list,
+.instructors-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 1.25rem;
+  gap: 10px;
+}
+
+/* Category Item Styles */
+.category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem; /* Equivalent to py-5 in Tailwind */
+  border: 2px solid #e2e8f0; /* Adjust as needed */
+  border-radius: 0.75rem; /* Equivalent to rounded-xl in Tailwind */
+  background-color: #ffffff; /* Background color for the card */
+  width: 250px; /* Equivalent to w-[300px] in Tailwind */
+}
+
+/* Category Icon Styles */
+.category-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem; /* Adjust as needed for size-16 equivalent */
+  height: 4rem; /* Adjust as needed for size-16 equivalent */
+  background-color: #e0f2fe; /* Equivalent to bg-[#E0F2FE] in Tailwind */
+  border-radius: 100%; /* Equivalent to rounded-full in Tailwind */
+  padding: 25px; /* Equivalent to p-3 in Tailwind */
+  margin-bottom: 0.75rem; /* Equivalent to m-3 in Tailwind */
+}
+
+.icon-image {
+  width: 100%; /* Equivalent to size-full in Tailwind */
+  height: auto;
+}
+
+/* Category Title Styles */
+.category-title {
+  font-weight: 600; /* Equivalent to font-semibold in Tailwind */
+  font-size: 1.25rem; /* Equivalent to text-xl in Tailwind */
+}
+
+/* Category Count Styles */
+.category-count {
+  color: #0f172a; /* Equivalent to text-gray-600 in Tailwind */
+  font-weight: 500; /* Equivalent to font-medium in Tailwind */
+}
+
+/* Section Styles */
+.top-courses-section,
+.top-instructors-section {
+  padding-top: 1.25rem; /* Equivalent to py-5 in Tailwind */
+  padding-bottom: 1.25rem; /* Equivalent to py-5 in Tailwind */
+}
+
+/* Container Styles for Top Courses */
+.top-courses-container,
+.top-instructors-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+/* Title Styles */
+.section-title {
+  font-size: 1.875rem; /* Equivalent to text-3xl in Tailwind */
+  font-weight: 500; /* Equivalent to font-medium in Tailwind */
+}
+
+/* Courses List Styles */
+
+/* Course Item Styles */
+.course-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+  padding: 1.25rem; /* Equivalent to py-5 in Tailwind */
+  border: 2px solid #e2e8f0; /* Border color */
+  border-radius: 0.75rem; /* Equivalent to rounded-lg in Tailwind */
+  background-color: #ffffff; /* Background color for the card */
+  width: 100%; /* Full width */
+  max-width: 250px; /* Adjust as needed */
+}
+
+.instructor-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 1.25rem; /* Equivalent to py-5 in Tailwind */
+  border: 2px solid #e2e8f0; /* Border color */
+  border-radius: 0.75rem; /* Equivalent to rounded-lg in Tailwind */
+  background-color: #ffffff; /* Background color for the card */
+  width: 100%; /* Full width */
+  max-width: 250px;
+}
+
+/* Course Image Styles */
+.course-image,
+.instructor-image {
+  width: 100%; /* Full width */
+  height: 9rem; /* Equivalent to h-36 in Tailwind */
+  border-radius: 0.375rem; /* Equivalent to rounded-md in Tailwind */
+  object-fit: cover;
+  margin-bottom: 0.5rem; /* Equivalent to mb-2 in Tailwind */
+  margin-top: 0.25rem; /* Equivalent to mt-1 in Tailwind */
+}
+
+/* Instructor Image Styles */
+.instructor-image {
+  height: 12rem; /* Equivalent to h-48 in Tailwind */
+  width: 15rem; /* Equivalent to w-60 in Tailwind */
+}
+
+/* Text Styles */
+.course-title,
+.instructor-name {
+  font-weight: 600; /* Equivalent to font-semibold in Tailwind */
+  font-size: 1.125rem; /* Equivalent to text-lg in Tailwind */
+}
+
+.course-instructor,
+.instructor-title {
+  color: #6b7280; /* Equivalent to text-gray-500 in Tailwind */
+  font-weight: 500; /* Equivalent to font-medium in Tailwind */
+}
+
+.course-rating,
+.instructor-rating {
+  color: #4b5563; /* Equivalent to text-gray-700 in Tailwind */
+  font-weight: 500; /* Equivalent to font-medium in Tailwind */
+}
+
+.course-details {
+  color: #4b5563; /* Equivalent to text-gray-600 in Tailwind */
+  font-weight: 500;
+  text-wrap: nowrap;
+  font-size: 0.9rem; /* Equivalent to font-medium in Tailwind */
+}
+
+.course-price {
+  font-weight: 600; /* Equivalent to font-semibold in Tailwind */
+  font-size: 1.125rem; /* Equivalent to text-lg in Tailwind */
+}
+
+/* Stats Container Styles */
+.instructor-stats {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #e2e8f0; /* Border color */
+  padding: 0.5rem;
+  width: 90%;
+  gap: 10;
+  margin-top: 5px; /* Equivalent to p-4 in Tailwind */
+}
+
+/* Section Styles */
+.testimonials-section,
+.become-instructor-section {
+  padding-top: 2.5rem; /* Equivalent to py-10 in Tailwind */
+  padding-bottom: 2.5rem; /* Equivalent to py-10 in Tailwind */
+  background-color: #f8fafc; /* Background color */
+}
+
+/* Container Styles */
+.container {
+  max-width: 1200px; /* Adjust based on your container width */
+  margin: 0 auto;
+  padding: 1.25rem; /* Equivalent to py-5 in Tailwind */
+}
+
+/* Testimonials Section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.875rem; /* Equivalent to text-3xl in Tailwind */
+  font-weight: 600; /* Equivalent to font-semibold in Tailwind */
+}
+
+.navigation-buttons {
+  display: flex;
+  gap: 0.5rem; /* Equivalent to gap-2 in Tailwind */
+}
+
+.nav-button {
+  padding: 0.5rem; /* Equivalent to px-2 in Tailwind */
+  background-color: #94a3b8; /* Background color */
+  border-radius: 8px; /* Equivalent to rounded-lg in Tailwind */
+}
+
+.nav-icon {
+  width: 1.25rem; /* Equivalent to size-10 in Tailwind */
+  height: 1.25rem; /* Equivalent to size-10 in Tailwind */
+  object-fit: contain;
+}
+
+.right {
+  rotate: 180deg;
+}
+
+/* Testimonials Container Styles */
+.testimonials-container {
+  display: flex;
+  overflow-x: hidden;
+  gap: 1.25rem; /* Equivalent to gap-5 in Tailwind */
+  margin-top: 2.5rem; /* Equivalent to mt-10 in Tailwind */
+}
+
+/* Testimonial Item Styles */
+.testimonial-item {
+  background-color: #ffffff; /* Card background */
+  border-radius: 0.75rem; /* Equivalent to rounded-xl in Tailwind */
+  padding: 1.25rem; /* Equivalent to p-5 in Tailwind */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Equivalent to shadow-lg in Tailwind */
+  min-width: 25rem; /* Equivalent to min-w-[400px] in Tailwind */
+  display: flex;
+  flex-direction: column;
+  gap: 10;
+  margin: 5px; /* Equivalent to space-y-5 in Tailwind */
+}
+
+.quote-icon {
+  width: 2rem; /* Adjust as needed */
+}
+
+.testimonial-text {
+  font-weight: 500; /* Equivalent to font-medium in Tailwind */
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem; /* Equivalent to gap-3 in Tailwind */
+}
+
+.profile-image {
+  width: 3.5rem; /* Equivalent to size-14 in Tailwind */
+  height: 3.5rem; /* Equivalent to size-14 in Tailwind */
+  object-fit: cover;
+  border-radius: 50%; /* Circular profile image */
+}
+
+.author-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.author-name {
+  font-weight: 700; /* Equivalent to font-bold in Tailwind */
+  font-size: 1.125rem; /* Equivalent to text-lg in Tailwind */
+}
+
+.author-title {
+  font-size: 1rem; /* Equivalent to text-md in Tailwind */
+  color: #334155; /* Text color */
+}
+
+/* Become an Instructor Section */
+.instructor-content {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.instructor-image {
+  width: 100%;
+  max-width: 500px; /* Adjust as needed */
+  height: auto;
+  object-fit: contain;
+}
+
+.text-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.25rem; /* Equivalent to gap-5 in Tailwind */
+}
+
+.headline {
+  font-size: 2rem; /* Equivalent to text-2xl in Tailwind */
+  font-weight: 700; /* Equivalent to font-bold in Tailwind */
+}
+
+.description {
+  width: 70%; /* Equivalent to w-[70%] in Tailwind */
+}
+
+.cta-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.25rem; /* Equivalent to py-3 px-5 in Tailwind */
+  background-color: #000000; /* Background color */
+  border-radius: 0.75rem; /* Equivalent to rounded-lg in Tailwind */
+  color: #ffffff; /* Text color */
+  gap: 0.75rem;
+  width: fit-content; /* Equivalent to gap-3 in Tailwind */
+}
+
+.cta-icon {
+  width: 1.25rem; /* Adjust as needed */
+  height: 1.25rem; /* Adjust as needed */
+}
+
+/* General Section Styles */
+.container {
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto;
+  padding: 1.25rem; /* Equivalent to py-5 in Tailwind */
+}
+
+/* Become an Instructor Section */
+.become-instructor-section {
+  padding: 2.5rem 0; /* Equivalent to py-10 in Tailwind */
+}
+
+.instructor-content {
+  display: flex;
+  gap: 2.5rem; /* Equivalent to gap-10 in Tailwind */
+  margin-bottom: 2.5rem; /* Space between sections */
+}
+
+.instructor-content.reversed {
+  flex-direction: row-reverse;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.image-container:last-child {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.instructor-image {
+  width: 100%;
+  max-width: 500px; /* Adjust based on design */
+  height: auto;
+  object-fit: contain;
+}
+
+.text-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.25rem; /* Equivalent to gap-5 in Tailwind */
+}
+
+.headline {
+  font-size: 1.5rem; /* Equivalent to text-2xl in Tailwind */
+  font-weight: 700; /* Equivalent to font-bold in Tailwind */
+}
+
+.description {
+  width: 70%; /* Equivalent to w-[70%] in Tailwind */
+}
+
+.cta-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.25rem; /* Equivalent to py-3 px-5 in Tailwind */
+  background-color: #000000; /* Background color */
+  border-radius: 0.75rem; /* Equivalent to rounded-lg in Tailwind */
+  color: #ffffff; /* Text color */
+  gap: 0.75rem; /* Equivalent to gap-3 in Tailwind */
+}
+
+.cta-icon {
+  width: 1.25rem; /* Adjust as needed */
+  height: 1.25rem; /* Adjust as needed */
+}
+
+/* Footer Section */
+.footer-section {
+  background-color: #1e293b; /* Background color */
+  color: #ffffff; /* Text color */
+  padding: 2.5rem 0; /* Equivalent to py-10 in Tailwind */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.footer-logo {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo-text {
+  font-weight: 600; /* Equivalent to font-semibold in Tailwind */
+  font-size: 1.25rem; /* Equivalent to text-xl in Tailwind */
+}
+
+.footer-description {
+  font-size: 0.875rem; /* Adjust as needed */
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-heading {
+  font-weight: 700; /* Equivalent to font-bold in Tailwind */
+  margin-bottom: 0.5rem;
+}
+
+.footer-item {
+  cursor: pointer;
+  transition: color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.footer-item:hover {
+  text-decoration: underline; /* Hover effect */
+}
+
+.footer-item img {
+  width: 300px; /* Adjust as needed */
+  height: auto;
+  background-color: transparent;
+  margin-top: 10px;
+}
