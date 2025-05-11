@@ -1,4 +1,3 @@
-/* General Styles */
 body {
   font-family: system-ui, sans-serif;
   margin: 0;
@@ -11,12 +10,9 @@ body {
   padding: 10px;
 }
 
-/* General Navbar Styles */
 .navbar {
   width: 100%;
-  padding: 1.25rem 0; /* Equivalent to py-5 in Tailwind */
-  border-bottom: 2px solid #e2e8f0; /* Assuming you want a light border */
-}
+  padding: 1.25rem 0;   border-bottom: 2px solid #e2e8f0; }
 
 .navbar-container {
   display: flex;
@@ -35,9 +31,7 @@ body {
 }
 
 .logo-text {
-  font-weight: 600; /* Equivalent to font-semibold */
-  font-size: 1.25rem; /* Equivalent to text-xl */
-}
+  font-weight: 600;   font-size: 1.25rem; }
 
 .actions {
   display: flex;
@@ -89,37 +83,27 @@ body {
 }
 
 .cta-button1 {
-  padding: 1rem 1.5rem; /* Equivalent to py-2 px-4 in Tailwind */
-  background-color: #3b82f6; /* Equivalent to bg-blue-500 in Tailwind */
-  border-radius: 0.5rem; /* Equivalent to rounded-lg in Tailwind */
-  color: #ffffff;
+  padding: 1rem 1.5rem;   background-color: #3b82f6;   border-radius: 0.5rem;   color: #ffffff;
   border: none;
   cursor: pointer;
   width: fit-content;
 }
 
-/* Image Content Styles */
 .image-content {
   height: 100%;
-  width: 50%; /* Equivalent to w-3/5 in Tailwind */
-  display: flex;
+  width: 50%;   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .hero-image {
-  max-width: 700px; /* Adjust based on your needs */
-  height: auto;
-  object-fit: contain; /* Equivalent to object-contain in Tailwind */
-}
+  max-width: 700px;   height: auto;
+  object-fit: contain; }
 
-/* Outer Section Styles */
 .stats-section {
-  margin-top: 2.5rem; /* Equivalent to my-10 in Tailwind */
-  background-color: #f8fafc;
+  margin-top: 2.5rem;   background-color: #f8fafc;
 }
 
-/* Container Styles */
 .stats-container {
   display: flex;
   align-items: center;
@@ -128,7 +112,6 @@ body {
   gap: 10px;
 }
 
-/* Individual Stat Item Styles */
 .stat-item {
   display: flex;
   align-items: center;
@@ -138,28 +121,19 @@ body {
 }
 
 .stat-number {
-  font-weight: 600; /* Equivalent to font-semibold in Tailwind */
-  font-size: 2.25rem; /* Equivalent to text-4xl in Tailwind */
-}
+  font-weight: 600;   font-size: 2.25rem; }
 
 .stat-description {
   font-size: 1.25rem;
-  padding-top: 10px; /* Equivalent to text-xl in Tailwind */
-}
+  padding-top: 10px; }
 
-/* Divider Styles */
 .divider {
-  height: 5rem; /* Equivalent to h-20 in Tailwind */
-  width: 2px; /* Equivalent to min-w-[3px] in Tailwind */
-  background-color: #e2e8f0;
+  height: 5rem;   width: 2px;   background-color: #e2e8f0;
   border: none;
 }
 
-/* Outer Section Styles */
 .top-categories-section {
-  padding-top: 1.25rem; /* Equivalent to py-5 in Tailwind */
-  padding-bottom: 1.25rem; /* Equivalent to py-5 in Tailwind */
-}
+  padding-top: 1.25rem;   padding-bottom: 1.25rem; }
 
 .title-section {
   width: 100%;
@@ -174,7 +148,6 @@ body {
   color: #0099ff;
 }
 
-/* Container Styles */
 .top-categories-container {
   display: flex;
   flex-direction: column;
@@ -184,12 +157,9 @@ body {
   margin-top: 50px;
 }
 
-/* Title Styles */
 .section-title {
-  font-size: 1.875rem; /* Equivalent to text-3xl in Tailwind */
-  font-weight: 600;
-  color: #0F172A; /* Equivalent to font-medium in Tailwind */
-}
+  font-size: 1.875rem;   font-weight: 600;
+  color: #0F172A; }
 
 .courses-list,
 .categories-list,
@@ -202,57 +172,33 @@ body {
   gap: 10px;
 }
 
-/* Category Item Styles */
 .category-item {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1.25rem; /* Equivalent to py-5 in Tailwind */
-  border: 2px solid #e2e8f0; /* Adjust as needed */
-  border-radius: 0.75rem; /* Equivalent to rounded-xl in Tailwind */
-  background-color: #ffffff; /* Background color for the card */
-  width: 250px; /* Equivalent to w-[300px] in Tailwind */
-}
+  padding: 1.25rem;   border: 2px solid #e2e8f0;   border-radius: 0.75rem;   background-color: #ffffff;   width: 250px; }
 
-/* Category Icon Styles */
 .category-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 4rem; /* Adjust as needed for size-16 equivalent */
-  height: 4rem; /* Adjust as needed for size-16 equivalent */
-  background-color: #e0f2fe; /* Equivalent to bg-[#E0F2FE] in Tailwind */
-  border-radius: 100%; /* Equivalent to rounded-full in Tailwind */
-  padding: 25px; /* Equivalent to p-3 in Tailwind */
-  margin-bottom: 0.75rem; /* Equivalent to m-3 in Tailwind */
-}
+  width: 4rem;   height: 4rem;   background-color: #e0f2fe;   border-radius: 100%;   padding: 25px;   margin-bottom: 0.75rem; }
 
 .icon-image {
-  width: 100%; /* Equivalent to size-full in Tailwind */
-  height: auto;
+  width: 100%;   height: auto;
 }
 
-/* Category Title Styles */
 .category-title {
-  font-weight: 600; /* Equivalent to font-semibold in Tailwind */
-  font-size: 1.25rem; /* Equivalent to text-xl in Tailwind */
-}
+  font-weight: 600;   font-size: 1.25rem; }
 
-/* Category Count Styles */
 .category-count {
-  color: #0f172a; /* Equivalent to text-gray-600 in Tailwind */
-  font-weight: 500; /* Equivalent to font-medium in Tailwind */
-}
+  color: #0f172a;   font-weight: 500; }
 
-/* Section Styles */
 .top-courses-section,
 .top-instructors-section {
-  padding-top: 1.25rem; /* Equivalent to py-5 in Tailwind */
-  padding-bottom: 1.25rem; /* Equivalent to py-5 in Tailwind */
-}
+  padding-top: 1.25rem;   padding-bottom: 1.25rem; }
 
-/* Container Styles for Top Courses */
 .top-courses-container,
 .top-instructors-container {
   display: flex;
@@ -262,28 +208,17 @@ body {
   gap: 2.5rem;
 }
 
-/* Title Styles */
 .section-title {
-  font-size: 1.875rem; /* Equivalent to text-3xl in Tailwind */
-  font-weight: 500; /* Equivalent to font-medium in Tailwind */
-}
+  font-size: 1.875rem;   font-weight: 500; }
 
-/* Courses List Styles */
 
-/* Course Item Styles */
 .course-item {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   gap: 5px;
-  padding: 1.25rem; /* Equivalent to py-5 in Tailwind */
-  border: 2px solid #e2e8f0; /* Border color */
-  border-radius: 0.75rem; /* Equivalent to rounded-lg in Tailwind */
-  background-color: #ffffff; /* Background color for the card */
-  width: 100%; /* Full width */
-  max-width: 250px; /* Adjust as needed */
-}
+  padding: 1.25rem;   border: 2px solid #e2e8f0;   border-radius: 0.75rem;   background-color: #ffffff;   width: 100%;   max-width: 250px; }
 
 .instructor-item {
   display: flex;
@@ -291,89 +226,53 @@ body {
   align-items: center;
   justify-content: center;
   gap: 5px;
-  padding: 1.25rem; /* Equivalent to py-5 in Tailwind */
-  border: 2px solid #e2e8f0; /* Border color */
-  border-radius: 0.75rem; /* Equivalent to rounded-lg in Tailwind */
-  background-color: #ffffff; /* Background color for the card */
-  width: 100%; /* Full width */
-  max-width: 250px;
+  padding: 1.25rem;   border: 2px solid #e2e8f0;   border-radius: 0.75rem;   background-color: #ffffff;   width: 100%;   max-width: 250px;
 }
 
-/* Course Image Styles */
 .course-image,
 .instructor-image {
-  width: 100%; /* Full width */
-  height: 9rem; /* Equivalent to h-36 in Tailwind */
-  border-radius: 0.375rem; /* Equivalent to rounded-md in Tailwind */
-  object-fit: cover;
-  margin-bottom: 0.5rem; /* Equivalent to mb-2 in Tailwind */
-  margin-top: 0.25rem; /* Equivalent to mt-1 in Tailwind */
-}
+  width: 100%;   height: 9rem;   border-radius: 0.375rem;   object-fit: cover;
+  margin-bottom: 0.5rem;   margin-top: 0.25rem; }
 
-/* Instructor Image Styles */
 .instructor-image {
-  height: 12rem; /* Equivalent to h-48 in Tailwind */
-  width: 15rem; /* Equivalent to w-60 in Tailwind */
-}
+  height: 12rem;   width: 15rem; }
 
-/* Text Styles */
 .course-title,
 .instructor-name {
-  font-weight: 600; /* Equivalent to font-semibold in Tailwind */
-  font-size: 1.125rem; /* Equivalent to text-lg in Tailwind */
-}
+  font-weight: 600;   font-size: 1.125rem; }
 
 .course-instructor,
 .instructor-title {
-  color: #6b7280; /* Equivalent to text-gray-500 in Tailwind */
-  font-weight: 500; /* Equivalent to font-medium in Tailwind */
-}
+  color: #6b7280;   font-weight: 500; }
 
 .course-rating,
 .instructor-rating {
-  color: #4b5563; /* Equivalent to text-gray-700 in Tailwind */
-  font-weight: 500; /* Equivalent to font-medium in Tailwind */
-}
+  color: #4b5563;   font-weight: 500; }
 
 .course-details {
-  color: #4b5563; /* Equivalent to text-gray-600 in Tailwind */
-  font-weight: 500;
+  color: #4b5563;   font-weight: 500;
   text-wrap: nowrap;
-  font-size: 0.9rem; /* Equivalent to font-medium in Tailwind */
-}
+  font-size: 0.9rem; }
 
 .course-price {
-  font-weight: 600; /* Equivalent to font-semibold in Tailwind */
-  font-size: 1.125rem; /* Equivalent to text-lg in Tailwind */
-}
+  font-weight: 600;   font-size: 1.125rem; }
 
-/* Stats Container Styles */
 .instructor-stats {
   display: flex;
   justify-content: space-between;
-  border-top: 2px solid #e2e8f0; /* Border color */
-  padding: 0.5rem;
+  border-top: 2px solid #e2e8f0;   padding: 0.5rem;
   width: 90%;
   gap: 10;
-  margin-top: 5px; /* Equivalent to p-4 in Tailwind */
-}
+  margin-top: 5px; }
 
-/* Section Styles */
 .testimonials-section,
 .become-instructor-section {
-  padding-top: 2.5rem; /* Equivalent to py-10 in Tailwind */
-  padding-bottom: 2.5rem; /* Equivalent to py-10 in Tailwind */
-  background-color: #f8fafc; /* Background color */
-}
+  padding-top: 2.5rem;   padding-bottom: 2.5rem;   background-color: #f8fafc; }
 
-/* Container Styles */
 .container {
-  max-width: 1200px; /* Adjust based on your container width */
-  margin: 0 auto;
-  padding: 1.25rem; /* Equivalent to py-5 in Tailwind */
-}
+  max-width: 1200px;   margin: 0 auto;
+  padding: 1.25rem; }
 
-/* Testimonials Section */
 .header {
   display: flex;
   justify-content: space-between;
@@ -381,72 +280,48 @@ body {
 }
 
 .title {
-  font-size: 1.875rem; /* Equivalent to text-3xl in Tailwind */
-  font-weight: 600; /* Equivalent to font-semibold in Tailwind */
-}
+  font-size: 1.875rem;   font-weight: 600; }
 
 .navigation-buttons {
   display: flex;
-  gap: 0.5rem; /* Equivalent to gap-2 in Tailwind */
-}
+  gap: 0.5rem; }
 
 .nav-button {
-  padding: 0.5rem; /* Equivalent to px-2 in Tailwind */
-  background-color: #94a3b8; /* Background color */
-  border-radius: 8px; /* Equivalent to rounded-lg in Tailwind */
-}
+  padding: 0.5rem;   background-color: #94a3b8;   border-radius: 8px; }
 
 .nav-icon {
-  width: 1.25rem; /* Equivalent to size-10 in Tailwind */
-  height: 1.25rem; /* Equivalent to size-10 in Tailwind */
-  object-fit: contain;
+  width: 1.25rem;   height: 1.25rem;   object-fit: contain;
 }
 
 .right {
   rotate: 180deg;
 }
 
-/* Testimonials Container Styles */
 .testimonials-container {
   display: flex;
   overflow-x: hidden;
-  gap: 1.25rem; /* Equivalent to gap-5 in Tailwind */
-  margin-top: 2.5rem; /* Equivalent to mt-10 in Tailwind */
-}
+  gap: 1.25rem;   margin-top: 2.5rem; }
 
-/* Testimonial Item Styles */
 .testimonial-item {
-  background-color: #ffffff; /* Card background */
-  border-radius: 0.75rem; /* Equivalent to rounded-xl in Tailwind */
-  padding: 1.25rem; /* Equivalent to p-5 in Tailwind */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Equivalent to shadow-lg in Tailwind */
-  min-width: 25rem; /* Equivalent to min-w-[400px] in Tailwind */
-  display: flex;
+  background-color: #ffffff;   border-radius: 0.75rem;   padding: 1.25rem;   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);   min-width: 25rem;   display: flex;
   flex-direction: column;
   gap: 10;
-  margin: 5px; /* Equivalent to space-y-5 in Tailwind */
-}
+  margin: 5px; }
 
 .quote-icon {
-  width: 2rem; /* Adjust as needed */
-}
+  width: 2rem; }
 
 .testimonial-text {
-  font-weight: 500; /* Equivalent to font-medium in Tailwind */
-}
+  font-weight: 500; }
 
 .testimonial-author {
   display: flex;
   align-items: center;
-  gap: 0.75rem; /* Equivalent to gap-3 in Tailwind */
-}
+  gap: 0.75rem; }
 
 .profile-image {
-  width: 3.5rem; /* Equivalent to size-14 in Tailwind */
-  height: 3.5rem; /* Equivalent to size-14 in Tailwind */
-  object-fit: cover;
-  border-radius: 50%; /* Circular profile image */
-}
+  width: 3.5rem;   height: 3.5rem;   object-fit: cover;
+  border-radius: 50%; }
 
 .author-details {
   display: flex;
@@ -454,16 +329,11 @@ body {
 }
 
 .author-name {
-  font-weight: 700; /* Equivalent to font-bold in Tailwind */
-  font-size: 1.125rem; /* Equivalent to text-lg in Tailwind */
-}
+  font-weight: 700;   font-size: 1.125rem; }
 
 .author-title {
-  font-size: 1rem; /* Equivalent to text-md in Tailwind */
-  color: #334155; /* Text color */
-}
+  font-size: 1rem;   color: #334155; }
 
-/* Become an Instructor Section */
 .instructor-content {
   display: flex;
   gap: 10px;
@@ -477,8 +347,7 @@ body {
 
 .instructor-image {
   width: 100%;
-  max-width: 500px; /* Adjust as needed */
-  height: auto;
+  max-width: 500px;   height: auto;
   object-fit: contain;
 }
 
@@ -487,52 +356,34 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1.25rem; /* Equivalent to gap-5 in Tailwind */
-}
+  gap: 1.25rem; }
 
 .headline {
-  font-size: 2rem; /* Equivalent to text-2xl in Tailwind */
-  font-weight: 700; /* Equivalent to font-bold in Tailwind */
-}
+  font-size: 2rem;   font-weight: 700; }
 
 .description {
-  width: 70%; /* Equivalent to w-[70%] in Tailwind */
-}
+  width: 70%; }
 
 .cta-button {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0.75rem 1.25rem; /* Equivalent to py-3 px-5 in Tailwind */
-  background-color: #000000; /* Background color */
-  border-radius: 0.75rem; /* Equivalent to rounded-lg in Tailwind */
-  color: #ffffff; /* Text color */
-  gap: 0.75rem;
-  width: fit-content; /* Equivalent to gap-3 in Tailwind */
-}
+  padding: 0.75rem 1.25rem;   background-color: #000000;   border-radius: 0.75rem;   color: #ffffff;   gap: 0.75rem;
+  width: fit-content; }
 
 .cta-icon {
-  width: 1.25rem; /* Adjust as needed */
-  height: 1.25rem; /* Adjust as needed */
-}
+  width: 1.25rem;   height: 1.25rem; }
 
-/* General Section Styles */
 .container {
-  max-width: 1200px; /* Adjust as needed */
-  margin: 0 auto;
-  padding: 1.25rem; /* Equivalent to py-5 in Tailwind */
-}
+  max-width: 1200px;   margin: 0 auto;
+  padding: 1.25rem; }
 
-/* Become an Instructor Section */
 .become-instructor-section {
-  padding: 2.5rem 0; /* Equivalent to py-10 in Tailwind */
-}
+  padding: 2.5rem 0; }
 
 .instructor-content {
   display: flex;
-  gap: 2.5rem; /* Equivalent to gap-10 in Tailwind */
-  margin-bottom: 2.5rem; /* Space between sections */
-}
+  gap: 2.5rem;   margin-bottom: 2.5rem; }
 
 .instructor-content.reversed {
   flex-direction: row-reverse;
@@ -551,8 +402,7 @@ body {
 
 .instructor-image {
   width: 100%;
-  max-width: 500px; /* Adjust based on design */
-  height: auto;
+  max-width: 500px;   height: auto;
   object-fit: contain;
 }
 
@@ -561,40 +411,25 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1.25rem; /* Equivalent to gap-5 in Tailwind */
-}
+  gap: 1.25rem; }
 
 .headline {
-  font-size: 1.5rem; /* Equivalent to text-2xl in Tailwind */
-  font-weight: 700; /* Equivalent to font-bold in Tailwind */
-}
+  font-size: 1.5rem;   font-weight: 700; }
 
 .description {
-  width: 70%; /* Equivalent to w-[70%] in Tailwind */
-}
+  width: 70%; }
 
 .cta-button {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0.75rem 1.25rem; /* Equivalent to py-3 px-5 in Tailwind */
-  background-color: #000000; /* Background color */
-  border-radius: 0.75rem; /* Equivalent to rounded-lg in Tailwind */
-  color: #ffffff; /* Text color */
-  gap: 0.75rem; /* Equivalent to gap-3 in Tailwind */
-}
+  padding: 0.75rem 1.25rem;   background-color: #000000;   border-radius: 0.75rem;   color: #ffffff;   gap: 0.75rem; }
 
 .cta-icon {
-  width: 1.25rem; /* Adjust as needed */
-  height: 1.25rem; /* Adjust as needed */
-}
+  width: 1.25rem;   height: 1.25rem; }
 
-/* Footer Section */
 .footer-section {
-  background-color: #1e293b; /* Background color */
-  color: #ffffff; /* Text color */
-  padding: 2.5rem 0; /* Equivalent to py-10 in Tailwind */
-}
+  background-color: #1e293b;   color: #ffffff;   padding: 2.5rem 0; }
 
 .footer-content {
   display: flex;
@@ -616,13 +451,10 @@ body {
 }
 
 .logo-text {
-  font-weight: 600; /* Equivalent to font-semibold in Tailwind */
-  font-size: 1.25rem; /* Equivalent to text-xl in Tailwind */
-}
+  font-weight: 600;   font-size: 1.25rem; }
 
 .footer-description {
-  font-size: 0.875rem; /* Adjust as needed */
-}
+  font-size: 0.875rem; }
 
 .footer-links {
   list-style-type: none;
@@ -631,8 +463,7 @@ body {
 }
 
 .footer-heading {
-  font-weight: 700; /* Equivalent to font-bold in Tailwind */
-  margin-bottom: 0.5rem;
+  font-weight: 700;   margin-bottom: 0.5rem;
 }
 
 .footer-item {
@@ -642,12 +473,10 @@ body {
 }
 
 .footer-item:hover {
-  text-decoration: underline; /* Hover effect */
-}
+  text-decoration: underline; }
 
 .footer-item img {
-  width: 300px; /* Adjust as needed */
-  height: auto;
+  width: 300px;   height: auto;
   background-color: transparent;
   margin-top: 10px;
 }
