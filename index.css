@@ -31,7 +31,7 @@ body {
 }
 
 .logo-text {
-  font-weight: 600;   font-size: 1.25rem; }
+  font-weight: 600;   font-size: 1.25rem; color: #334155; }
 
 .actions {
   display: flex;
@@ -66,6 +66,7 @@ body {
   margin: 0 auto;
   gap: 20px;
   padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .hero-section .text-content {
@@ -170,6 +171,7 @@ body {
   width: 100%;
   gap: 1.25rem;
   gap: 10px;
+  padding-bottom: 10px;
 }
 
 .category-item {
@@ -193,7 +195,7 @@ body {
   font-weight: 600;   font-size: 1.25rem; }
 
 .category-count {
-  color: #0f172a;   font-weight: 500; }
+  color: #0f172a;   font-weight: 500; padding: 10px;}
 
 .top-courses-section,
 .top-instructors-section {
@@ -209,7 +211,7 @@ body {
 }
 
 .section-title {
-  font-size: 1.875rem;   font-weight: 500; }
+  font-size: 1.875rem;   font-weight: 500; padding: 10px;}
 
 
 .course-item {
@@ -217,8 +219,8 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 5px;
-  padding: 1.25rem;   border: 2px solid #e2e8f0;   border-radius: 0.75rem;   background-color: #ffffff;   width: 100%;   max-width: 250px; }
+  gap: 8px;
+  padding: 16px;   border: 1px solid #e2e8f0;   border-radius: 15px;   background-color: #ffffff;   width: 100%;   max-width: 298px; height: 100%;max-height: 338px;}
 
 .instructor-item {
   display: flex;
@@ -265,7 +267,9 @@ body {
   gap: 10;
   margin-top: 5px; }
 
-.testimonials-section,
+.testimonials-section {
+  padding-top:80px;
+}
 .become-instructor-section {
   padding-top: 2.5rem;   padding-bottom: 2.5rem;   background-color: #f8fafc; }
 
@@ -480,3 +484,10 @@ body {
   background-color: transparent;
   margin-top: 10px;
 }
+.footer-logo .logo-link {
+  text-decoration: none !important;
+  color: white !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
